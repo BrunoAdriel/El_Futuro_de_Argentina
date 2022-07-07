@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    font-family: 'Nunito', sans-serif;
+    position: sticky;
+    top: 0px;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+}
+
+h2{
+    font-family: 'Nunito', sans-serif;
+}
+
+ul{
+    background-color: rgb(43, 153, 204);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    list-style: none;
+}
+
+footer{
+    background-color: rgb(43, 153, 204) ;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+article{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+}
+
+title{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+}
+
+/* clases especificas*/
+
+.centrado{
+    text-align: center;
+}
+
+/* fin clases escificas*/
+
+/*navegador de las paginas*/
+
+.nav{
+    display: inline;
+    padding: 0 16px;
+
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    word-spacing: 5%;
+}
+
+/*fin del nav*/
+
+/* Inicio de las clases, parte principar de las paginas*/
+
+.entrada{
+    width: 100vw;
+    height: 100vh;
+}
+
+.entrada div{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../recursos/inicio1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.entrada h1{
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 5px 5px 5px rgb(49, 48, 48);
+}
+
+/* Inicio Fauna*/
+
+.entrada_fauna{
+    width: 100vw;
+    height: 100vh;
+}
+
+.entrada_fauna div{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url("../recursos/fauna.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.entrada_fauna h1{
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 23%;
+}
+
+/* Inicio Flora*/
+
+.entrada_fauna{
+    width: 100vw;
+    height: 100vh;
+}
+
+.entrada_fauna div{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url("../recursos/flora.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.entrada_fauna h1{
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 23%;
+}
+
+/*Inicio Ayudar*/
+
+
+.entrada_ayuda{
+    width: 100vw;
+    height: 100vh;
+}
+
+.entrada_ayuda div{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url("../recursos/reciclaje.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.entrada_ayuda h1{
+    font-size: 3rem;
+    color: black;
+    display: flex;
+    margin-left: 40%;
+}
+
+/*inicio contacto*/
+
+.cc{
+    width: 100vw;
+    height: 100vh;
+}
+
+.cc div{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 70%;
+    display: flex;
+    background-image: url("../recursos/pinguino.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cc h1{
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    margin-left: 30%;
+    text-shadow: 5px 5px 5px rgb(49, 48, 48);
+}
+
+/*fin inicio contacto*/
+
+/*fin de los inicios*/
+
+/*parte secundaria de la pagia, noticias*/
+
+.nn{
+    font-family: 'Roboto Mono', monospace;
+    padding-right: 25%;
+    padding-left: 25%;
+    display:flex;
+    flex-direction: row;
+}
+
+.nn a{
+    text-decoration: underline;
+    margin:2%;
+    color: black;
+}
+
+.nn p{
+    margin: 2%;
+    padding: 10px 0 0 0;
+}
+
+.nn img{
+    width: 55%;
+    height: 55%;
+    background-size: contain;
+}
+
+/*fin de la parte secundaria de la pagina*/
+
+/*parte secundaria contacto*/
+
+.contenedor_contacto{
+    margin-left: 3%;
+    margin-top: -13%;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(180, 176, 176);
+    border-radius:4% ;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor_texto{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.formulario{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end ;
+    position: relative;
+    left:700px; bottom: 180px;
+}
+
+.botom_f{
+    width: 60px;
+
+}
+/*fin parte secundara ayuda*/
+
+/* clases footer*/
+
+.sapnderecha{
+    display:flex;
+    flex-direction: column;
+}
+
+.sapninzq{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+
+/*fin clases footer*/
