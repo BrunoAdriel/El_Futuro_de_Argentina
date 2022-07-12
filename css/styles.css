@@ -326,15 +326,6 @@ a{
 
 @media (min-width: 320px) and (max-width: 575px){
 
-    .navegacion{
-        padding: 0;
-        background-color: rgb(43, 153, 204);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
     .nav{
         margin: 5px;
         padding: 7px;
@@ -343,6 +334,35 @@ a{
     .naver{
         justify-content:space-evenly;
         flex-wrap: wrap;
-        
     }
+
+    .entrada h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .nn{
+        font-family: 'Roboto Mono', monospace;
+        padding-right: 0;
+        padding-left: 0;
+        display:flex;
+        flex-direction: row;
+    }
+
+    footer{
+        grid-template-areas:    "indice none redes"
+                                "derechos derechos none ";
+    }
+
+
+    .footer_derechos{
+        display: inline;
+    }
+
+
+
 }
