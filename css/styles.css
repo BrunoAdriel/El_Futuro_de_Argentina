@@ -325,142 +325,24 @@ a{
 /* Inicio Media Queris*/
 
 @media (min-width: 320px) and (max-width: 575px){
-    
-    .entrada h1{
-        font-size: 2 rem;
+
+    .navegacion{
+        padding: 0;
+        background-color: rgb(43, 153, 204);
         display: flex;
-        text-align: center;
-        justify-content:center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
-    /* Inicio Fauna*/
-
-.entrada_fauna{
-    width: 100vw;
-    height: 100vh;
-}
-
-.entrada_fauna div{
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    background-image: url("../recursos/fauna.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.entrada_fauna h1{
-    font-size: 3rem;
-    color: white;
-    display: flex;
-    align-items: center;
-    margin-left: 23%;
-}
-
-/* Inicio Flora*/
-
-.entrada_fauna{
-    width: 100vw;
-    height: 100vh;
-}
-
-.entrada_fauna div{
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    background-image: url("../recursos/flora.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.entrada_fauna h1{
-    font-size: 3rem;
-    color: white;
-    display: flex;
-    align-items: center;
-    margin-left: 23%;
-}
-
-/*Inicio Ayudar*/
-
-
-.entrada_ayuda{
-    width: 100vw;
-    height: 100vh;
-}
-
-.entrada_ayuda div{
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    background-image: url("../recursos/reciclaje.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.entrada_ayuda h1{
-    font-size: 3rem;
-    color: black;
-    display: flex;
-    margin-left: 40%;
-}
-
-/*inicio contacto*/
-
-.cc{
-    width: 100vw;
-    height: 100vh;
-}
-
-.cc div{
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 70%;
-    display: flex;
-    background-image: url("../recursos/pinguino.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.cc h1{
-    font-size: 3rem;
-    color: white;
-    display: flex;
-    margin-left: 30%;
-    text-shadow: 5px 5px 5px rgb(49, 48, 48);
-}
-
-/*fin inicios*/
-
-/* inicio medio*/
-.nn{
-    font-family: 'Roboto Mono', monospace;
-    padding-right: 15%;
-    padding-left: 15%;
-    display:flex;
-    flex-wrap: wrap;
-}
-
-/*FOTER*/
-
-footer{
-    display: grid;
-    padding: 5px;
-    grid-template-areas:    "indice none derechos"
-                            "indice none derechos"
-                            "redes none derechos";
-}
-
-.footer_redes{
-    align-items: flex-start;
-}
+    .nav{
+        margin: 5px;
+        padding: 7px;
+    }
+    
+    .naver{
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        
+    }
 }
