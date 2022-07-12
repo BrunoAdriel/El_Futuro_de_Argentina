@@ -50,6 +50,7 @@ title{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo_nav{
@@ -67,6 +68,7 @@ title{
     list-style: none;
     flex-wrap: wrap;
     margin: 11px;
+
 }
 
 .nav a{
@@ -287,7 +289,7 @@ footer{
     display: grid;
     padding: 10px;
     grid-template-areas:    "indice none redes"
-                            "indice none derechos";
+                            "indice derechos redes";
 }
 
 .footer_indice{
@@ -296,6 +298,10 @@ footer{
 
 .footer_redes{
     grid-area: redes;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:space-between;
+    align-items:flex-end ;
 }
 
 .footer_derechos{
