@@ -13,10 +13,13 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="navegacion">
+            <a href="index.html">
+                <img src="recursos/favicon.ico" alt="imagen el logo de la pagina, un arbol adentro de una gota de agua" class="logo_nav">
+            </a>
+            <ul class="naver">
                 <li class="nav"><a href="index.html">Inicio</a></li>
-                <li class="nav"><A href="pages/fauna.html">Fauna </a></li>
+                <li class="nav"><a href="pages/fauna.html">Fauna </a></li>
                 <li class="nav"><a href="pages/flora.html">Flora </a></li>
                 <li class="nav"><a href="pages/ayudar.html">Como ayudar</a></li>
                 <li class="nav"><a href="pages/contacto.html">Contacto</a></li>
@@ -33,7 +36,7 @@
             <h2 class="centrado">Noticias de la Semana</h2>
                 <article class="centrado">Retrazos</article>
                     <section class="nn">
-                        <img src="recursos/deforestacion.jpg" alt="foto sobre deforestacion" > 
+                        <img src="recursos/deforestacion.jpg" alt="foto sobre deforestacion"> 
                         <div>
                             <a href="" title="La gran deforestacion de las principales provincias" >La gran deforestacion de las principales provincias</a>
                             <p> Argentina perdió 2,8 millones de hectáreas de bosques nativos durante 2019, se perdieron 80.938 hectáreas de bosques en las cuatro provincias con más desmontes del país: son 25.513 hectáreas en Santiago del Estero, 23.521 hectáreas en Formosa, 14.664 hectáreas en Salta y 17.240 hectáreas en Chaco.
@@ -47,6 +50,16 @@
                             <a href="" title="El derrame de Barrick Gold">El derrame de Barrick Gold</a>
                             <p>Un consultor del municipio de Jáchal, de San Juan, asegura que no hay resultados concluyentes. Esta semana, los estudios realizados periódicamente por la Facultad de Ingeniería de la UNCuyo arrojaron que, se encontraron niveles altos de mercurio, superiores a los del derrame de 2015 en Veladero, también se optó por hacer otra prueba, donde confluyen dos ríos, uno de los cuales tiene un alto contenido natural de este compuesto.
                             desde Barrick Gold, la compañía minera, destacan que los niveles de mercurio están “por debajo de los límites de detección de laboratorio y dentro de la normativa”.
+                            </p>
+                        </div>
+                    </section>
+                    <section class="nn">
+                        <img src="recursos/abeja.jpg" alt="imagen de abeja volando llevando polen en sus patas">
+                        <div>
+                            <a href="https://noticias-ambientales-argentina.blogspot.com/2022/07/preocupa-la-perdida-de-biodiversidad-de.html" title="La biodiversidad de los insectos en el Nordeste argentino">La biodiversidad de los insectos en el Nordeste argentino</a>
+                            <p>Cecilia Fernández, integrante de la Cátedra Ecología General del Profesorado Universitario de Biología, señala que estamos teniendo falta de encontrar las especies que hace 10 años atrás encontrábamos en las distintas regiones, como las mariposas silvestres y las abejas sin aguijón, estas se ven afectadas por la reducción en la vegetación, el avance de la urbanización y de las actividades productivas, entre otras actividades humanas.
+                                Dentro de las causas que afectan y llevan a la pérdida de la biodiversidad, están, el avance de la urbanización y de las actividades productivas, entre otras actividades humanas se van perdiendo zonas de vegetación, en muchos casos, la vegetación que nosotros percibimos como “maleza”, es la alimentación de una determinada especie de mariposa diurna. Dentro de las especies de abejas sin aguijon se encuentran más de 300 especies de abejas nativas, las cuales se encuentran desequilibradas y vulnerables.
+                                Si bien todavía tenemos una “alta diversidad”, estudios demuestran que estamos empezando a tener problemas para encontrar la misma cantidad de biodiversidad que teníamos hace 10 años atrás.
                             </p>
                         </div>
                     </section>
@@ -82,14 +95,33 @@
     </main>
     
     <footer>
-        <section class="sapnderecha">
+        <section class="footer_indice">
+            <h3>Navegación</h3>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/fauna.html">Fauna </a></li>
+                <li><a href="pages/flora.html">Flora </a></li>
+                <li><a href="pages/ayudar.html">Como ayudar</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+            </ul>
+        </section>
+        <section class="footer__derechos">
             <span>Todas las imagenes e informacion es de dominio publico no me adjudico ninguna autoria.</span>
             <span>Este sitio web no tiene ningun fin politico, solo informativo.</span>
         </section>
-        <section class="sapninzq">
+        <section class="footer_redes">
             <span>Autor: Adriel Bruno</span>
-            <span>Email de contacto: A.Bruno@outlook.com.ar</span>
+            <div>
+                <span>Sitios de contacto:</span> 
+                <span>Email de contacto: A.Bruno@outlook.com.ar</span>
+                <a href="https://wa.me/1134337173/?text=No dudes en escribirnos">
+                    <img src="recursos/wpp.png" alt="imagen de icono de whatsapp" class="iconos_footer">
+                </a>
+                <a href="https://www.instagram.com/adrielbrruno/">
+                    <img src="recursos/inst.png" alt="imagen sobre icono de instagram" class="iconos_footer">
+                </a>
+            </div>
         </section>
-    </footer>
+    </footer> 
 </body>
 </html> 

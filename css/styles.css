@@ -17,20 +17,6 @@ h2{
     font-family: 'Nunito', sans-serif;
 }
 
-ul{
-    background-color: rgb(43, 153, 204);
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    list-style: none;
-}
-
-footer{
-    background-color: rgb(43, 153, 204) ;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-}
 
 article{
     font-family: 'Roboto Mono', monospace;
@@ -48,20 +34,44 @@ title{
     text-align: center;
 }
 
+.iconos_footer{
+    width:35px;
+    height: 35px;
+    margin:5px;
+}
+
 /* fin clases escificas*/
 
 /*navegador de las paginas*/
 
-.nav{
-    display: inline;
+.navegacion{
     padding: 0 16px;
+    background-color: rgb(43, 153, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.logo_nav{
+    display: flex;
+}
+
+.naver{
+    display: flex;
+    flex-grow: 3;
+    justify-content: center;
+}
+
+.nav{
+    display:flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 11px;
 }
 
 .nav a{
     color: white;
     text-decoration: none;
-    word-spacing: 5%;
 }
 
 /*fin del nav*/
@@ -204,6 +214,8 @@ title{
 
 /*parte secundaria de la pagia, noticias*/
 
+
+
 .nn{
     font-family: 'Roboto Mono', monospace;
     padding-right: 25%;
@@ -267,18 +279,43 @@ title{
 }
 /*fin parte secundara ayuda*/
 
-/* clases footer*/
 
-.sapnderecha{
-    display:flex;
-    flex-direction: column;
+footer{
+    background-color: rgb(43, 153, 204) ;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    display: grid;
+    padding: 10px;
+    grid-template-areas:    "indice none redes"
+                            "indice none derechos";
 }
 
-.sapninzq{
-    display:flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
+.footer_indice{
+    grid-area: indice;
 }
 
+.footer_redes{
+    grid-area: redes;
+}
 
+.footer_derechos{
+    grid-area: derechos;
+}
+
+footer span{
+    display: block;
+}
+
+.footer_indice ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    text-align: left;
+}
 /*fin clases footer*/
+
+/* Inicio Media Queris*/
+
