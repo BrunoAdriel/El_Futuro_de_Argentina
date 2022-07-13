@@ -131,12 +131,12 @@ title{
 
 /* Inicio Flora*/
 
-.entrada_fauna{
+.entrada_flora{
     width: 100vw;
     height: 100vh;
 }
 
-.entrada_fauna div{
+.entrada_flora div{
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -147,7 +147,7 @@ title{
     background-position: center;
 }
 
-.entrada_fauna h1{
+.entrada_flora h1{
     font-size: 3rem;
     color: white;
     display: flex;
@@ -326,6 +326,8 @@ a{
 
 @media (min-width: 320px) and (max-width: 575px){
 
+    /*inicio header*/
+
     .nav{
         margin: 5px;
         padding: 7px;
@@ -342,23 +344,136 @@ a{
     }
 
     h2{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
+
+    article{
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.2rem;
+    }
+
+    /*fin incio header*/
+    /*inicio main*/
 
     .nn{
         font-family: 'Roboto Mono', monospace;
         padding-right: 0;
         padding-left: 0;
         display:flex;
+        flex-direction: column;
+    }
+    
+    .nn a{
+        text-decoration: underline;
+        margin:2%;
+        color: black;
+        display: block;
+        text-align: center;
+    }
+
+    .nn p{
+        margin: 2%;
+        padding: 10px 0 0 0;
+    }
+    
+    .nn img{
+        width: 70vw;
+        height: 30vh;
+        align-self: center;
+        background-size:contain;
+    }
+
+
+    /*fin main*/
+    /* inicio de footer */
+
+    footer{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr ;
+        grid-template-areas:    "indice"
+                                "redes"
+                                "redes"
+                                "derechos";
         flex-direction: row;
     }
 
-    footer{
-        grid-template-areas:    "indice none redes"
-                                "derechos derechos none ";
+    .footer_redes{
+        align-items:flex-start;
+        padding: 13px 0;
     }
 
+    .footer span{
+        display: block;
+    }
 
+    .footer_derechos{
+        grid-area: derechos;
+        flex-direction: row;
+    }
+    
+    .iconos_footer{
+        width:25px;
+        height: 25px;
+        margin:2px;
+        padding:0 7px
+    }
 
+/*fin footer*/
+/* inicio de las otras paginas*/
+/*fauna*/
+
+.entrada_fauna h1{
+    font-size: 2rem ;
+    margin: 0;
+    text-align: center;
+}
+
+/* flora */
+
+.entrada_flora h1{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+/* ayuda */
+
+.entrada_ayuda{
+    width: 100vw;
+    height: 60vh;
+}
+
+.entrada_ayuda h1{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.entrada_ayuda div{
+    height: 300px;
+    justify-content: center;
+}
+
+/* contacto */
+
+.cc h1{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+.contenedor_contacto{
+    width: 300px;
+    height: 300px;
+}
+
+.formulario{
+    width: 300px;
+    margin: 20px 0 0 10px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    align-items: flex-start;
+}
 
 }
+/*fin media celular*/
