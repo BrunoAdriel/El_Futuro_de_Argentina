@@ -38,6 +38,10 @@ title{
     text-align: center;
 }
 
+.centradomedio{
+    margin-left: 20% ; 
+}
+
 .iconos_footer{
     width:35px;
     height: 35px;
@@ -229,7 +233,7 @@ title{
     flex-direction: row;
 }
 
-.nn a{
+.nna{
     text-decoration: underline;
     margin:2%;
     color: black;

@@ -17,19 +17,35 @@
 </head>
 <body>
     <header>
-        <nav class="navegacion animate__animated animate__fadeInDown">
-            <a href="index.html">
-                <img src="recursos/favicon.ico" alt="imagen el logo de la pagina, un arbol adentro de una gota de agua" class="logo_nav">
-            </a>
-            <ul class="naver ">
-                <li class="nav"><a href="index.html">Inicio</a></li>
-                <li class="nav"><a href="pages/fauna.html">Fauna </a></li>
-                <li class="nav"><a href="pages/flora.html">Flora </a></li>
-                <li class="nav"><a href="pages/ayudar.html">Como ayudar</a></li>
-                <li class="nav"><a href="pages/contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navegacion animate__animated animate__fadeInDown">
+            <div class="container-fluid">
+                <a href="index.html">
+                    <img src="recursos/favicon.ico" alt="imagen el logo de la pagina, un arbol adentro de una gota de agua" class="logo_nav">
+                        </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav naver">
+                            <li class="nav-item nav">
+                            <a class="navbar-brand aria-current="page" href="#">Inicio</a>
+                                </li>
+                            <li class="nav-item nav">
+                            <a class="navbar-brand" href="pages/fauna.html">Fauna</a>
+                                </li>
+                            <li class="nav-item nav">
+                            <a class="navbar-brand" href="pages/fauna.html">Flora</a>
+                                </li>
+                            <li class="nav-item nav">
+                            <a class="navbar-brand" href="pages/ayudar.html">Como ayudar</a>
+                                </li>
+                            <li class="nav-item nav">
+                            <a class="navbar-brand" href="pages/contacto.html">Contacto</a>
+                                </li>
+                        </ul>
+                </div>
+            </div>
         </nav>
-    </header>
 
     <main>
         <section class="entrada">
@@ -39,6 +55,26 @@
         </section>
             <h2 class="centrado animate__animated animate__fadeInDown ">Noticias de la Semana</h2>
                 <article class="centrado animate__animated animate__slideInUp">Retrazos</article>
+                <!--  -->
+                <div class="centradomedio card mb-3 " style="max-width: 840px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="recursos/deforestacion.jpg" class="img-fluid rounded-start " alt="foto sobre deforestacion">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                                    <a href="" title="La gran deforestacion de las principales provincias" class="nna"><h4 id="scrollspyHeading1">La gran deforestacion de las principales provincias</h4></a>
+                                    <p>Argentina perdió 2,8 millones de hectáreas de bosques nativos durante 2019, se perdieron 80.938 hectáreas de bosques en las cuatro provincias con más desmontes del país: son 25.513 hectáreas en Santiago del Estero, 23.521 hectáreas en Formosa, 14.664 hectáreas en Salta y 17.240 hectáreas en Chaco.
+                                    Generano un aceleramiento en el cambio climático que nos vuelve más vulnerables al aumento e intensidad de las precipitaciones, lo que provoca cada vez más inundaciones; Sólo los sectores Agricultura, Ganadería, Silvicultura y Otros Usos de la Tierra representan el 39% de las emisiones de Gases de Efecto Invernadero del país.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
                     <section class="nn">
                         <img src="recursos/deforestacion.jpg" alt="foto sobre deforestacion"> 
                         <div>
