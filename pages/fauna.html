@@ -5,91 +5,161 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../recursos/favicon.ico" type="image/x-icon">
+    <!-- animanciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+        <!-- CSS boostrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <title>El_Futuro_de_Argentina</title>
 </head>
 <body>
     <header>
-        <nav class="navegacion">
-            <a href="index.html">
-                <img src="../recursos/favicon.ico" alt="imagen el logo de la pagina, un arbol adentro de una gota de agua" class="logo_nav">
-            </a>
-            <ul class="naver">
-                <li class="nav"><a href="../index.html">Inicio</a></li>
-                <li class="nav"><A href="fauna.html">Fauna </a></li>
-                <li class="nav"><a href="flora.html">Flora </a></li>
-                <li class="nav"><a href="ayudar.html">Como ayudar</a></li>
-                <li class="nav"><a href="contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navegacion animate__animated animate__fadeInDown">
+            <div class="container-fluid">
+                <a href="../index.html">
+                    <img src="../recursos/favicon.ico" alt="imagen el logo de la pagina, un arbol adentro de una gota de agua" class="logo_nav">
+                        </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav naver">
+                            <li class="nav-item nav">
+                            <a class="navbar-brand aria-current=page" href="../index.html">Inicio</a>
+                                </li>
+                            <li class="nav-item nav">
+                            <a class="navbar-brand" href="fauna.html">Fauna</a>
+                                </li>
+                            <li class="nav-item nav">
+                            <a class="navbar-brand" href="fauna.html">Flora</a>
+                                </li>
+                            <li class="nav-item nav">
+                            <a class="navbar-brand" href="ayudar.html">Como ayudar</a>
+                                </li>
+                            <li class="nav-item nav">
+                            <a class="navbar-brand" href="contacto.html">Contacto</a>
+                                </li>
+                        </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
         <section class="entrada_fauna">
             <div alt="imagen de llamas en la patagonia">
-                <h1>Noticias de la semana, Fauna</h1>
+                <h1 class="entrada h1 animate__animated animate__fadeInUp">Noticias de la semana, Fauna</h1>
             </div>
         </section>
-            <article class="centrado">Avances</article>
-            <section class="nn">
-                <img src="../recursos/ciervo.jpg" alt="imagen del ciervo de los pantanos en los humedales">
-                <div>
-                    <a href="https://efeverde.com/argentina-mayor-ciervo-suramerica-chaco/" title="vuelta desde la extincion">Vuelta desde la extincion</a>
-                    <p>Hace 100 años, el ciervo de los pantanos se distribuía por gran parte de la cuenca de los ríos Paraná y Uruguay, pero la combinación de la caza, los avances agropecuarios y las enfermedades importadas por el ganado provocaron su extinción en casi todo este territorio.
-                Sin embargo, las acciones de conservación realizadas en el Parque Iberá, situado en Corrientes, lograron que la población de este mamífero aumentara considerablemente al punto de que se encontraron dos nuevos ejemplares de este animal en el norte de Chaco, una zona donde estaba extinto desde hace casi un siglo.
-                    </p>
-                </div>
-            </section>
-            <section class="nn">
-                <img src="../recursos/pinguinos.jpg" alt="imagen de pinguinos regresando al mar argentino luego de rehabilitacion">
-                <div>    
-                    <a href="https://efeverde.com/pinguinos-mar-argentina-rescatados/" title="regreso a casa">Regreso a casa</a>
-                    <p>Dieciocho pingüinos fueron rescatados en varias cuidades en la costa atlántica bonaerense, a estos se los encontraron con un cuadro llamado síndrome de “pingüino varado”, al no encontrar alimento suficiente pierden la capacidad de termorregular, eso conlleva a cuadros de desnutrición, deshidratación, hipotermia y altos grados de parasitismo.
-                Para lograr estabilizar a los pingüinos se les aplica una terapia térmica con calor para generar comodidad en el animal e hidratación a través de pescado licuado hasta que puedan consumir el pez entero. Antes de darles el alta, los médicos veterinarios toman muestras de sangre para verificar su estado físico y les colocan un chip subcutáneo para que en caso de aparezca en otro lugar les permita saber en qué centro de rescate fueron tratados. Hoy en día ya se encuentran en libertad 
-                    </p>
-                </div>
-            </section>
-            <section class="nn">
-                <img src="../recursos/ansenuza.jpg" alt="foto de diputados que expucieron el proyecto de asenuza con una bandera sobre su proyecto">
-                <div>
-                    <a href="https://noticias-ambientales-argentina.blogspot.com/2022/07/ansenuza-en-cordoba-ya-es-parque.html" title="El nuevo Parque Nacional Ansenuza">El nuevo Parque Nacional Ansenuza</a>
-                    <p>En Córdoba el Congreso de la Nación aprobó el proyecto de ley para la creación del Parque Nacional Ansenuza, abarca 661.416 hectáreas que incluyen la Laguna de Mar Chiquita o Mar de Ansenuza, el mayor lago salado de Sudamérica y el quinto a nivel mundial, que juntoa los Bañados del Rio Dulce conforman un enorme humedal, que es considerado un espacio fundamental para la conservación de la biodiversidad y forma parte de la lista de Sitios Ramsar, integrada por aquellos humedales de importancia internacional.
-                        El Parque Nacional Ansenuza alberga el 66% de todas las especies de aves migratorias y playeras registradas en la Argentina, a la vez que concentra casi el 36% de la avifauna del total del país y el 85% de las 447 especies de aves citadas para la provincia de Córdoba. Esto lo convierte en uno de los sitios más importantes para la conservación de las aves del Centro del país y de las especies migratorias de Sudamérica, que cada año se congregan en números de hasta medio millón de individuos; entre las especies que conforman la vegetación del lugar se puede encontrar desde grandes algarrobos y quebrachos hasta espartillares, juncales y totorales, pasando por arbustales y matorrales halófitos de transición.
-                        </p>
-                </div>
-            </section>
-            <article class="centrado">Retrazos</article>
-            <section class="nn">
-                <img src="../recursos/carpincho.jpg" alt="imagen de un grupo de carpinchos en un muelle de un barrio privado">
-                    <div>
-                        <a href="https://www.lanacion.com.ar/sociedad/carpinchos-en-nordelta-otros-casos-donde-un-ecosistema-alterado-provoco-el-desequilibrio-de-una-nid23082021/" title="carpinchos en nordelta">Carpichos en Nordelta</a>
-                        <p>La sobrepoblación de carpinchos de debe a que, gracias a la alteración de los humedales y de las tremendas inundaciones en Buenos Aires, se formaron enormes lagunas que dieron lugar a nuevos ecosistemas, ideales para carpinchos, aves y otros animales, si a esto le sumamos la falta de los depredadores naturales, como los pumas y le sumamos que son roedores, por lo que tienen a reproducirse mucho y generan una sobrepoblación.
-                El problema con los carpinchos muestra el conflicto entre el humano y el ambiente, en donde la única víctima es la fauna. Con el aumento de gente que busca vivir en barrios privados o clubes de campo, crece la urbanización y la modificación de ambientes naturales. Los primeros espacios más vulnerables son los humedales periurbanos, que son áreas que necesitan y cumplen un rol importante en las aguas continentales. Mientras no exista y se haga cumplir una ley que proteja los humedales y los complejos servicios eco sistémicos seguiremos viendo cada vez más seguido conflictos entre las personas y los animales con pronósticos muy desalentadores
-                        </p>
+        <article class="centrado">Avances</article>
+            <!--  -->
+            <div class="centradomedio card mb-3 " style="max-width: 840px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../recursos/ciervo.jpg" class="img-fluid rounded-start " alt="imagen del ciervo de los pantanos en los humedales">
                     </div>
-            </section>
-            <section class="nn">
-                <img src="../recursos/cardumen.jpg" alt="iamgen sobre un cardumern de peces formando un circulo">
-                <div>
-                    <a href="https://noticias-ambientales-argentina.blogspot.com/2022/07/el-mar-argentino-y-el-impacto-de-la.html" title="Los efectos de la acidificación oceánica">Los efectos de la acidificación oceánica</a>
-                    <p>Investigadora argentina presentó en Portugal un informe detallado sobre los niveles de acidificación oceánica causados por el incremento del dióxido de carbono en la tierra y en el mar, llevado a cabo gracias a que todos los meses, desde hace 22 años, un buque del ‘Inidep’ va a un punto del mar Argentino y realizamos relevamientos, a los que desde hace seis años se sumó el monitoreo de carbonatos, con es una serie de datos a largo plazo en el mismo lugar y de manera continua; si bien el Mar Argentino es muy grande y sus distintas regiones presentran diferentes variables de inertes oceanográfico y para la actividad pesquera. Este es un campo con muy pocos estudios previos en el que los sensores autónomos del buque del ‘Inidep’ nos permiten reunir mucha información.
-                        En otras partes del mundo, ya son registrables los efectos de la acidificación oceánica, sobre todo en organismos calcificadores, como langostinos, vieiras o el plancton; la acidificación baja el pH del agua, lo que deja disponible menos ion-carbonato, que es el elemento que estas especies necesitan para su desarrollo. Entonces se empiezan a identificar poblaciones que sufren o se debilitan porque no toleran el cambio de pH, o ejemplares que, al momento de ser consumidos, presentan 'menos gusto'.
-                        Este trabajo se va a presentar en la Conferencia sobre los Océanos de las Naciones Unidas que se realiza en la ciudad portuguesa de Lisboa, en la cual se promoverá una serie de soluciones innovadoras con base científica, la aplicación de tecnología ecológica y el uso innovador de recursos marinos.
-                    </p>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                                <a href="https://efeverde.com/argentina-mayor-ciervo-suramerica-chaco/" title="vuelta desde la extincion" class="nna"><h4 id="scrollspyHeading1">Vuelta desde la extincion</h4></a>
+                                <p>Hace 100 años, el ciervo de los pantanos se distribuía por gran parte de la cuenca de los ríos Paraná y Uruguay, pero la combinación de la caza, los avances agropecuarios y las enfermedades importadas por el ganado provocaron su extinción en casi todo este territorio.
+                                    Sin embargo, las acciones de conservación realizadas en el Parque Iberá, situado en Corrientes, lograron que la población de este mamífero aumentara considerablemente al punto de que se encontraron dos nuevos ejemplares de este animal en el norte de Chaco, una zona donde estaba extinto desde hace casi un siglo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <section class="nn">
-                <img src="../recursos/jaguar.jpg" alt="imagen sobre jaguar en primer plano">
-                <div>
-                    <a href="https://www.ecologiaverde.com/por-que-el-jaguar-esta-en-peligro-de-extincion-1318.html" title="jaguares en la lista roja">Jaguares en la lista roja</a>
-                    <p>El jaguar formar parte de la Lista Roja de Especies Amenazadas, actualmente, la principal amenaza que está diezmando las poblaciones de jaguares es la deforestación del Amazonas, que avanza a pasos agigantados para obtener nuevas tierras de cultivos Esta destrucción acelerada de su hábitat natural hace que el jaguar tenga más dificultades para cazar y para reproducirse.
-                No conformes con solo destruir su hábitat natural, al jaguar, también se lo caza furtivamente, se trafica ilegalmente como animales exóticos y también caen en trampas puestas por los campesinos de las zonas ya que constituye como una especie que ataca al ganado, a pesar de las leyes que se han implementado en algunos países con el fin de protegerlo, la realidad es que se trata de una especie que cada vez se encuentra más amenazada y que es muy probable que en los próximos años entre en la lista de “extintos” si no hacemos algo.
-                    </p>
+            </div>
+            <div class="centradomedio card mb-3 " style="max-width: 840px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../recursos/pinguinos.jpg" class="img-fluid rounded-start " alt="imagen de pinguinos regresando al mar argentino luego de rehabilitacion">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                                <a href="https://efeverde.com/pinguinos-mar-argentina-rescatados/" title="regreso a casa" class="nna"><h4 id="scrollspyHeading1">Regreso a casa</h4></a>
+                                <p>Dieciocho pingüinos fueron rescatados en varias cuidades en la costa atlántica bonaerense, a estos se los encontraron con un cuadro llamado síndrome de “pingüino varado”, al no encontrar alimento suficiente pierden la capacidad de termorregular, eso conlleva a cuadros de desnutrición, deshidratación, hipotermia y altos grados de parasitismo.
+                                    Para lograr estabilizar a los pingüinos se les aplica una terapia térmica con calor para generar comodidad en el animal e hidratación a través de pescado licuado hasta que puedan consumir el pez entero. Antes de darles el alta, los médicos veterinarios toman muestras de sangre para verificar su estado físico y les colocan un chip subcutáneo para que en caso de aparezca en otro lugar les permita saber en qué centro de rescate fueron tratados. Hoy en día ya se encuentran en libertad 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
+            </div>
+            <div class="centradomedio card mb-3 " style="max-width: 840px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../recursos/ansenuza.jpg" class="img-fluid rounded-start " alt="foto de diputados que expucieron el proyecto de asenuza con una bandera sobre su proyecto">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                                <a href="https://noticias-ambientales-argentina.blogspot.com/2022/07/ansenuza-en-cordoba-ya-es-parque.html" title="El nuevo Parque Nacional Ansenuza" class="nna"><h4 id="scrollspyHeading1">El nuevo Parque Nacional Ansenuza</h4></a>
+                                <p>En Córdoba el Congreso de la Nación aprobó el proyecto de ley para la creación del Parque Nacional Ansenuza, abarca 661.416 hectáreas que incluyen la Laguna de Mar Chiquita o Mar de Ansenuza, el mayor lago salado de Sudamérica y el quinto a nivel mundial, que juntoa los Bañados del Rio Dulce conforman un enorme humedal, que es considerado un espacio fundamental para la conservación de la biodiversidad y forma parte de la lista de Sitios Ramsar, integrada por aquellos humedales de importancia internacional.
+                                    El Parque Nacional Ansenuza alberga el 66% de todas las especies de aves migratorias y playeras registradas en la Argentina, a la vez que concentra casi el 36% de la avifauna del total del país y el 85% de las 447 especies de aves citadas para la provincia de Córdoba. Esto lo convierte en uno de los sitios más importantes para la conservación de las aves del Centro del país y de las especies migratorias de Sudamérica, que cada año se congregan en números de hasta medio millón de individuos; entre las especies que conforman la vegetación del lugar se puede encontrar desde grandes algarrobos y quebrachos hasta espartillares, juncales y totorales, pasando por arbustales y matorrales halófitos de transición.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <article class="centrado">Retrazos</article>
+            <div class="centradomedio card mb-3 " style="max-width: 840px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../recursos/carpincho.jpg" class="img-fluid rounded-start " alt="imagen de un grupo de carpinchos en un muelle de un barrio privado">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                                <a href="https://www.lanacion.com.ar/sociedad/carpinchos-en-nordelta-otros-casos-donde-un-ecosistema-alterado-provoco-el-desequilibrio-de-una-nid23082021/" title="carpinchos en nordelta" class="nna"><h4 id="scrollspyHeading1">Carpichos en Nordelta</h4></a>
+                                <p>La sobrepoblación de carpinchos de debe a que, gracias a la alteración de los humedales y de las tremendas inundaciones en Buenos Aires, se formaron enormes lagunas que dieron lugar a nuevos ecosistemas, ideales para carpinchos, aves y otros animales, si a esto le sumamos la falta de los depredadores naturales, como los pumas y le sumamos que son roedores, por lo que tienen a reproducirse mucho y generan una sobrepoblación.
+                                    El problema con los carpinchos muestra el conflicto entre el humano y el ambiente, en donde la única víctima es la fauna. Con el aumento de gente que busca vivir en barrios privados o clubes de campo, crece la urbanización y la modificación de ambientes naturales. Los primeros espacios más vulnerables son los humedales periurbanos, que son áreas que necesitan y cumplen un rol importante en las aguas continentales. Mientras no exista y se haga cumplir una ley que proteja los humedales y los complejos servicios eco sistémicos seguiremos viendo cada vez más seguido conflictos entre las personas y los animales con pronósticos muy desalentadores
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="centradomedio card mb-3 " style="max-width: 840px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../recursos/cardumen.jpg" class="img-fluid rounded-start " alt="imagen sobre un cardumern de peces formando un circulo">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                                <a href="https://noticias-ambientales-argentina.blogspot.com/2022/07/el-mar-argentino-y-el-impacto-de-la.html" class="nna" title="Los efectos de la acidificación oceánica"><h4 id="scrollspyHeading1">Los efectos de la acidificación oceánica</h4></a>
+                                <p>Investigadora argentina presentó en Portugal un informe detallado sobre los niveles de acidificación oceánica causados por el incremento del dióxido de carbono en la tierra y en el mar, llevado a cabo gracias a que todos los meses, desde hace 22 años, un buque del ‘Inidep’ va a un punto del mar Argentino y realizamos relevamientos, a los que desde hace seis años se sumó el monitoreo de carbonatos, con es una serie de datos a largo plazo en el mismo lugar y de manera continua; si bien el Mar Argentino es muy grande y sus distintas regiones presentran diferentes variables de inertes oceanográfico y para la actividad pesquera. Este es un campo con muy pocos estudios previos en el que los sensores autónomos del buque del ‘Inidep’ nos permiten reunir mucha información.
+                                    En otras partes del mundo, ya son registrables los efectos de la acidificación oceánica, sobre todo en organismos calcificadores, como langostinos, vieiras o el plancton; la acidificación baja el pH del agua, lo que deja disponible menos ion-carbonato, que es el elemento que estas especies necesitan para su desarrollo. Entonces se empiezan a identificar poblaciones que sufren o se debilitan porque no toleran el cambio de pH, o ejemplares que, al momento de ser consumidos, presentan 'menos gusto'.
+                                    Este trabajo se va a presentar en la Conferencia sobre los Océanos de las Naciones Unidas que se realiza en la ciudad portuguesa de Lisboa, en la cual se promoverá una serie de soluciones innovadoras con base científica, la aplicación de tecnología ecológica y el uso innovador de recursos marinos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="centradomedio card mb-3 " style="max-width: 840px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../recursos/jaguar.jpg" class="img-fluid rounded-start " alt="imagen sobre jaguar en primer plano">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                                <a href="https://www.ecologiaverde.com/por-que-el-jaguar-esta-en-peligro-de-extincion-1318.html" class="nna" title="jaguares en la lista roja"><h4 id="scrollspyHeading1">Jaguares en la lista roja</h4></a>
+                                <p>El jaguar formar parte de la Lista Roja de Especies Amenazadas, actualmente, la principal amenaza que está diezmando las poblaciones de jaguares es la deforestación del Amazonas, que avanza a pasos agigantados para obtener nuevas tierras de cultivos Esta destrucción acelerada de su hábitat natural hace que el jaguar tenga más dificultades para cazar y para reproducirse.
+                                    No conformes con solo destruir su hábitat natural, al jaguar, también se lo caza furtivamente, se trafica ilegalmente como animales exóticos y también caen en trampas puestas por los campesinos de las zonas ya que constituye como una especie que ataca al ganado, a pesar de las leyes que se han implementado en algunos países con el fin de protegerlo, la realidad es que se trata de una especie que cada vez se encuentra más amenazada y que es muy probable que en los próximos años entre en la lista de “extintos” si no hacemos algo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
 
     <footer>
