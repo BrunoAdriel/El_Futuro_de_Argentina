@@ -5,8 +5,6 @@
 
 header{
     font-family: 'Nunito', sans-serif;
-    position: stickyno;
-    top: 0px;
 }
 
 nav{
@@ -39,7 +37,8 @@ title{
 }
 
 .centradomedio{
-    margin-left: 20% ; 
+    display: flex;
+    justify-content: center;
 }
 
 .iconos_footer{
@@ -53,12 +52,15 @@ title{
 /*navegador de las paginas*/
 
 .navegacion{
+    width: 100vw;
     padding: 0 16px;
     background-color: rgb(43, 153, 204);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position: fixed;
+    z-index: 10;
 }
 
 .logo_nav{
