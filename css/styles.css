@@ -85,6 +85,12 @@ title{
     text-decoration: none;
 }
 
+.escala:hover{
+    transform: scale(1.25, 1.25);
+    transition: 1s;
+    color: white;
+}
+
 /*fin del nav*/
 
 /* Inicio de las clases, parte principar de las paginas*/
@@ -331,6 +337,8 @@ a{
     text-align: left;
 }
 /*fin clases footer*/
+
+
 
 /* Inicio Media Queris*/
 
