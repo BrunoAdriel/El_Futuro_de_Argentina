@@ -17,60 +17,120 @@
 </head>
 <body>
     <header>
-        <nav class="navegacion">
-            <a href="index.html">
-                <img src="../recursos/favicon.ico" alt="imagen el logo de la pagina, un arbol adentro de una gota de agua" class="logo_nav">
-            </a>
-            <ul class="naver">
-                <li  class="nav"><a href="../index.html">Inicio</a></li>
-                <li  class="nav"><A href="fauna.html">Fauna </a></li>
-                <li  class="nav"><a href="flora.html">Flora </a></li>
-                <li  class="nav"><a href="ayudar.html">Como ayudar</a></li>
-                <li  class="nav"><a href="contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navegacion animate__animated animate__fadeInDown">
+            <div class="container-fluid">
+                <a href="../index.html">
+                    <img src="../recursos/favicon.ico" alt="imagen el logo de la pagina, un arbol adentro de una gota de agua" class="logo_nav">
+                        </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav naver">
+                            <li class="nav-item nav">
+                            <a class="navbar-brand aria-current=page escala" href="../index.html">Inicio</a>
+                                </li>
+                            <li class="nav-item nav">
+                            <a class="navbar-brand escala" href="fauna.html">Fauna</a>
+                                </li>
+                            <li class="nav-item nav">
+                            <a class="navbar-brand escala" href="flora.html">Flora</a>
+                                </li>
+                            <li class="nav-item nav">
+                            <a class="navbar-brand escala" href="ayudar.html">Como ayudar</a>
+                                </li>
+                            <li class="nav-item nav">
+                            <a class="navbar-brand escala" href="contacto.html">Contacto</a>
+                                </li>
+                        </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
         <section class="entrada_ayuda">
             <div alt="imagen sobre los continentes del muendo verdes con logo de reciclaje ne le medio">
-            <H1>Como ayudar?</H1>
+            <h1 class="entrada h1 animate__animated animate__fadeInUp">Como ayudar?</h1>
             </div>
         </section>
         <article  class="centrado">Voluntariamente</article>
-                <section class="nn">
-                    <img src="../recursos/reciclaje1.jpg" alt="imagen sobre la limpieza de los materiales reciclables">
-                    <div>
-                        <title>Lavado y separado de los elementos reciclables.</title>
-                        <p>Una de las maneras más fáciles y comunes para ayudar a reciclar es el lavado y separado de los residuos reciclables, entre ellos se encuentran: vidrio, papel, cartón, madera, pilas, baterias, envoltorios y envases. 
-                        Y por último tirarlo en los tachos de basura reciclables o en los puntos verdes.
-                        </p>
+        <section class="centradomedio">
+            <div class="card mb-3 " style="max-width: 640px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../recursos/reciclaje1.jpg" class="img-fluid rounded-start " alt="imagen sobre la limpieza de los materiales reciclables">
                     </div>
-                </section>
-                <section class="nn">
-                    <img src="../recursos/botella.jpg" alt="imagen sobre ecobotella, con los diferentes envoltorios que se le pueden poner adentro">
-                    <div>
-                        <title>Las ecobotellas.</title>
-                        <p>Otra forma muy importante de ayudar el ecosistema es hacer eco-botellas, estas se realizan a partir de botellas de plástico, previamente lavadas y secas, en las cuales pondremos nuestros residuos plásticos, que también vamos a tener que lavar y secar.
-                        una vez tengamos toda la botella llena de residuos y bien compactados, para lograr esto podes ayudarte con algún elemento largo y rígido que entre en la botella para aplastar y compactar más los residuos y así conseguir una botella llena, sin espacios de aire con y bien maciza 
-                        </p>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                                <h2 class="letra">Lavado y separado de los elementos reciclables.</h2>
+                                <p>Una de las maneras más fáciles y comunes para ayudar a reciclar es el lavado y separado de los residuos reciclables, entre ellos se encuentran: vidrio, papel, cartón, madera, pilas, baterias, envoltorios y envases. 
+                                    Y por último tirarlo en los tachos de basura reciclables o en los puntos verdes.</p>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+            </section>
+            <section class="centradomedio">
+                <div class="card mb-3 " style="max-width: 640px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../recursos/botella.jpg" class="img-fluid rounded-start " alt="imagen sobre ecobotella, con los diferentes envoltorios que se le pueden poner adentro">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                                    <h2 class="letra">Las ecobotellas.</h2>
+                                    <p>Otra forma muy importante de ayudar el ecosistema es hacer eco-botellas, estas se realizan a partir de botellas de plástico, previamente lavadas y secas, en las cuales pondremos nuestros residuos plásticos, que también vamos a tener que lavar y secar.
+                                        una vez tengamos toda la botella llena de residuos y bien compactados, para lograr esto podes ayudarte con algún elemento largo y rígido que entre en la botella para aplastar y compactar más los residuos y así conseguir una botella llena, sin espacios de aire con y bien maciza 
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </section>
             <article  class="centrado">Monetariamente</article>
-                <section class="nn">
-                    <img src="../recursos/greenpeace.jpg" alt="imagen sobre un barco de greenpeace en oceano argentino">
-                    <div>
-                        <a href="https://app.greenpeace.org.ar/coupon/regular/forms/registration?app=yaguarete&utm_source=web&utm_medium=openSpace&utm_content=banner_home&utm_term=todos&utm_campaign=Yaguarete" title="greenpeace">Greenpeace</a>
-                        <p>Dentro de las posibles organizaciones sin fines de lucro se encuentra “Greenpeace” no solo es una de las organizaciones más grande del mundo, sino que también es una de las más antiguas en el fundada en 1971. Esta tuvo grandes logros tales como ponerle fin a la casa de animales en peligro de extinción, detener la explotación de la tierra y de los animales alrededor de todo el mundo, la protección de los mares y del ecosistema.</p>
+            <section class="centradomedio">
+                <div class="card mb-3 " style="max-width: 640px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../recursos/greenpeace.jpg" class="img-fluid rounded-start " alt="imagen sobre un barco de greenpeace en oceano argentino">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                                    <a href="https://app.greenpeace.org.ar/coupon/regular/forms/registration?app=yaguarete&utm_source=web&utm_medium=openSpace&utm_content=banner_home&utm_term=todos&utm_campaign=Yaguarete" title="greenpeace" class="nna"><h4 id="scrollspyHeading1">Greenpeace</h4></a>
+                                    <p>Dentro de las posibles organizaciones sin fines de lucro se encuentra “Greenpeace” no solo es una de las organizaciones más grande del mundo, sino que también es una de las más antiguas en el fundada en 1971. Esta tuvo grandes logros tales como ponerle fin a la casa de animales en peligro de extinción, detener la explotación de la tierra y de los animales alrededor de todo el mundo, la protección de los mares y del ecosistema.
+                                </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
                 </section>
-                <section class="nn">
-                    <img src="../recursos/farn.jpg" alt="imagen sobre pedido de conocimiento a informacion publica de farn ">
-                    <div>
-                        <a href="https://farn.org.ar/sumate-a-farn/" title="fundación ambiente y recursos naturales">Fundación Ambiente y Recursos Naturales</a>
-                        <P>Fundación Ambiente y Recursos Naturales "FARN" es organización sin fines de lucro creada en 1985 es una organización creada en Argentina con el fin de cuidar el medio ambiente, cambio climático y biodiversidad. Dentro de sus proyectos actuales se enturan ampliando y protegiendo más áreas dentro del Mar Argentino, también se encuentran en la conservación y protección de los humedales, localizados en la Reserva Nacional de Cuidad Evita, entre otros granes proyectos como la minería, glaciares, energía, entre otros.</P>
+                <section class="centradomedio">
+                    <div class="card mb-3 " style="max-width: 640px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../recursos/farn.jpg" class="img-fluid rounded-start " alt="imagen sobre pedido de conocimiento a informacion publica de farn">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                                        <a href="https://farn.org.ar/sumate-a-farn/" title="fundación ambiente y recursos naturales" class="nna"><h4 id="scrollspyHeading1">Fundación Ambiente y Recursos Naturales</h4></a>
+                                        <p>Fundación Ambiente y Recursos Naturales "FARN" es organización sin fines de lucro creada en 1985 es una organización creada en Argentina con el fin de cuidar el medio ambiente, cambio climático y biodiversidad. Dentro de sus proyectos actuales se enturan ampliando y protegiendo más áreas dentro del Mar Argentino, también se encuentran en la conservación y protección de los humedales, localizados en la Reserva Nacional de Cuidad Evita, entre otros granes proyectos como la minería, glaciares, energía, entre otros.
+                                        </P>
+                                        <a href="https://farn.org.ar/sumate-a-farn/" class="btndonar">
+                                            <button type="button" class="btn btn-primary btn-sm btndonar">Donar</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </section>
+                    </section>
     </main>
 
     <footer>

@@ -179,14 +179,14 @@ title{
 
 .entrada_ayuda{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
 }
 
 .entrada_ayuda div{
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     background-image: url("../recursos/reciclaje.jpg");
     background-size: contain;
@@ -195,10 +195,12 @@ title{
 }
 
 .entrada_ayuda h1{
+    padding-top: 45px;
     font-size: 3rem;
     color: black;
     display: flex;
-    margin-left: 40%;
+    justify-content: center;
+    text-shadow: 5px 5px 5px rgb(49, 48, 48);
 }
 
 /*inicio contacto*/
@@ -244,6 +246,10 @@ title{
 
 /*parte secundaria contacto*/
 
+.letra{
+    font-size: 1.5rem;
+}
+
 .contenedor_contacto{
     margin-left: 3%;
     margin-top: -13%;
@@ -274,7 +280,6 @@ title{
 
 .botom_f{
     width: 60px;
-
 }
 /*fin parte secundara ayuda*/
 
