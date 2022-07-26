@@ -1,0 +1,116 @@
+/* Inicio Media Queris*/
+
+@media (min-width: 320px) and (max-width: 575px){
+
+    /*inicio header*/
+
+    .nav{
+        margin: 5px;
+        padding: 7px;
+    }
+    
+    .naver{
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .entrada h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 1.3rem;
+    }
+
+    article{
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.2rem;
+    }
+
+    /*fin incio header*/
+    /* inicio de footer */
+
+    footer{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr ;
+        grid-template-areas:    "indice"
+                                "redes"
+                                "redes"
+                                "derechos";
+        flex-direction: row;
+
+        &_redes{
+            align-items:flex-start;
+            padding: 13px 0;
+        }
+
+        &_derechos{
+            grid-area: derechos;
+            flex-direction: row;
+        }
+    
+        span{
+            display: block;
+        }
+    }
+
+/*fin footer*/
+/* inicio de las otras paginas*/
+/*fauna*/
+
+.entrada_fauna h1{
+    font-size: 2rem ;
+    margin: 0;
+    text-align: center;
+}
+
+/* flora */
+
+.entrada_flora h1{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+/* ayuda */
+
+.entrada_ayuda{
+    width: 100vw;
+    height: 40vh;
+
+    & h1{
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    & div{
+        height: 250px;
+        justify-content: center;
+    }
+}
+
+/* contacto */
+
+.cc h1{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+.contenedor_contacto{
+    width: 300px;
+    height: 300px;
+}
+
+.formulario{
+    width: 300px;
+    margin: 20px 0 0 10px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    align-items: flex-start;
+}
+
+}
+/*fin media celular*/
