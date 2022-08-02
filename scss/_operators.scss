@@ -1,0 +1,25 @@
+// Extends
+
+.imagen_principal{
+    width: 100vw;
+    height: 100vh;
+}
+
+.inicios_foto{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.inicios_letra{
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 15px 15px 15px rgb(49, 48, 48);
+}

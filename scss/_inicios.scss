@@ -1,26 +1,15 @@
 /* Inicio de las clases, parte principar de las paginas*/
 
 .entrada{
-    width: 100vw;
-    height: 100vh;
+    @extend .imagen_principal;
 
     & div{
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-        height: 100vh;
+        @extend .inicios_foto;
         background-image: url("../recursos/inicio1.png");
-        background-size: cover;
-        background-position: center;
     }
 
     & h1{
-        font-size: 3rem;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-shadow: 15px 15px 15px rgb(49, 48, 48);
+        @extend .inicios_letra;
     }
     
 }
@@ -29,27 +18,15 @@
 /* Inicio Fauna*/
 
 .entrada_fauna{
-    width: 100vw;
-    height: 100vh;
+    @extend .imagen_principal;
 
     & div{
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-        height: 100vh;
-        display: flex;
+        @extend .inicios_foto;
         background-image: url("../recursos/fauna.jpg");
-        background-size: cover;
-        background-position: center;
     }
 
     & h1{
-        font-size: 3rem;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-shadow: 15px 15px 15px rgb(49, 48, 48);
+        @extend .inicios_letra;
     }
 }
 
@@ -57,27 +34,15 @@
 /* Inicio Flora*/
 
 .entrada_flora{
-    width: 100vw;
-    height: 100vh;
+    @extend .imagen_principal;
 
     & div{
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-        height: 100vh;
-        display: flex;
+        @extend .inicios_foto;
         background-image: url("../recursos/flora.jpg");
-        background-size: cover;
-        background-position: center;
     }
 
     & h1{
-        font-size: 3rem;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-shadow: 15px 15px 15px rgb(49, 48, 48);
+        @extend .inicios_letra;
     }
 }
 
@@ -86,28 +51,19 @@
 
 
 .entrada_ayuda{
-    width: 100vw;
-    height: 90vh;
+    @extend .imagen_principal;
 
     & div{
-        margin: 0;
-        padding: 0;
-        width: 100vw;
+        @extend .inicios_foto;
         height: 90vh;
-        display: flex;
         background-image: url("../recursos/reciclaje.jpg");
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
     }
 
     & h1{
+        @extend .inicios_letra;
+        align-items:flex-start;
         padding-top: 55px;
-        font-size: 3rem;
         color: black;
-        display: flex;
-        justify-content: center;
-        text-shadow: 5px 5px 5px rgb(49, 48, 48);
     }
 }
 
@@ -115,27 +71,18 @@
 /*inicio contacto*/
 
 .cc{
-    width: 100vw;
-    height: 100vh;
+    @extend .imagen_principal;
 
     & div{
-        margin: 0;
-        padding: 0;
-        width: 100vw;
+        @extend .inicios_foto;
         height: 70%;
-        display: flex;
         background-image: url("../recursos/pinguino.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
     }
 
     & h1{
-        font-size: 3rem;
-        color: white;
-        display: flex;
-        margin-left: 30%;
-        text-shadow: 5px 5px 5px rgb(49, 48, 48);
+        @extend .inicios_letra;
+        align-items:flex-start;
+        padding-top: 55px;
     }
 }
 
