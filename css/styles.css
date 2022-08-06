@@ -81,13 +81,29 @@
 
 /*Fin Inicio Ayuda*/
 /*inicio contacto*/
-.cc div {
-  height: 70%;
-  background-image: url("../recursos/pinguino.jpg"); }
-
-.cc h1 {
-  align-items: flex-start;
-  padding-top: 55px; }
+.cc {
+  padding-top: 48px;
+  display: flex;
+  align-items: flex-start; }
+  .cc div {
+    height: 70%;
+    background-image: url("../recursos/pinguino.jpg"); }
+    .cc div:before {
+      content: "";
+      display: block;
+      width: 100vw;
+      height: 70%;
+      background-image: linear-gradient(to bottom, gray, rgba(128, 128, 128, 0)); }
+  .cc h1 {
+    font-size: 2.4rem;
+    z-index: 3; }
+  .cc p {
+    margin: 0 25%;
+    text-align: center;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    color: white; }
 
 /*fin inicio contacto*/
 /*fin de los inicios*/
@@ -269,3 +285,17 @@ title {
   width: 60px; }
 
 /*fin parte secundara ayuda*/
+.boton_ayuda {
+  display: flex;
+  justify-content: flex-end; }
+  .boton_ayuda_a {
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    font-size: 0.85rem;
+    border-radius: 10px;
+    border: 0px;
+    background-image: linear-gradient(to right top, #7bfcff, #56ebff, #2fdaff, #0ac7ff, #1ab4fb); }
+    .boton_ayuda_a:hover {
+      transform: scale(1.1, 1.1);
+      transition: 1s; }

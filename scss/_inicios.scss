@@ -71,18 +71,38 @@
 /*inicio contacto*/
 
 .cc{
+    padding-top:48px;
+    display: flex;
+    align-items: flex-start;
     @extend .imagen_principal;
 
     & div{
         @extend .inicios_foto;
         height: 70%;
         background-image: url("../recursos/pinguino.jpg");
+    
+    &:before{
+        content: "";
+        display: block;
+        width: 100vw;
+        height: 70%;
+        background-image:linear-gradient(to bottom, gray, rgba(128, 128, 128, 0));
+    }
     }
 
     & h1{
         @extend .inicios_letra;
-        align-items:flex-start;
-        padding-top: 55px;
+        font-size: 2.4rem;
+        z-index: 3;
+    }
+
+    & p{
+        margin: 0 25%; 
+        text-align: center;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        color: white;
     }
 }
 

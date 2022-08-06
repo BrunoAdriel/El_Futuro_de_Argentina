@@ -104,3 +104,24 @@ title{
     width: 60px;
 }
 /*fin parte secundara ayuda*/
+// Botones de parte de ayuda
+
+.boton_ayuda{
+    display: flex;
+    justify-content: flex-end;
+
+    &_a{
+        width: 80px;
+        height: 35px;
+        text-align: center;
+        font-size: 0.85rem;
+        border-radius: 10px;
+        border:0px;
+        background-image: linear-gradient(to right top, #7bfcff, #56ebff, #2fdaff, #0ac7ff, #1ab4fb);
+    
+    &:hover{
+        transform: scale(1.10, 1.10);
+        transition: 1s;
+    }
+    }
+}
