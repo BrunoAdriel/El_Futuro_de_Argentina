@@ -68,37 +68,24 @@ title{
 
 /*parte secundaria contacto*/
 
+.contac-tam{
+    width: 600px;
+    position: relative;
+    bottom: 100px; left: 70px;
+}
+
+
 .letra{
     font-size: 1.5rem;
 }
 
-.contenedor_contacto{
-    margin-left: 3%;
-    margin-top: -13%;
-    width: 500px;
-    height: 200px;
-    background-color: rgb(180, 176, 176);
-    border-radius:4% ;
-    display: flex;
-    align-items: center;
+.boton-contacto{
+    @extend .boton_general;
+    background-color: rgb(43, 153, 204);
+    color: white;
+    margin-top: 5px;
 }
 
-.contenedor_texto{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    line-height: 30px;
-}
-
-.formulario{
-    width: 600px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-end ;
-    position: relative;
-    left:700px; bottom: 180px;
-}
 
 .botom_f{
     width: 60px;
@@ -111,12 +98,7 @@ title{
     justify-content: flex-end;
 
     &_a{
-        width: 80px;
-        height: 35px;
-        text-align: center;
-        font-size: 0.85rem;
-        border-radius: 10px;
-        border:0px;
+        @extend .boton_general;
         background-image: linear-gradient(to right top, #7bfcff, #56ebff, #2fdaff, #0ac7ff, #1ab4fb);
     
     &:hover{

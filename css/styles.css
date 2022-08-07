@@ -19,6 +19,14 @@
   align-items: center;
   text-shadow: 15px 15px 15px #313030; }
 
+.boton_general, .boton-contacto, .boton_ayuda_a {
+  width: 80px;
+  height: 35px;
+  text-align: center;
+  font-size: 0.85rem;
+  border-radius: 10px;
+  border: 0px; }
+
 /*navegador de las paginas*/
 .navegacion {
   width: 100vw;
@@ -56,7 +64,7 @@
 /*fin del nav*/
 /* Inicio de las clases, parte principar de las paginas*/
 .entrada div {
-  background-image: url("../recursos/inicio1.png"); }
+  background-image: url("../recursos/inicio1.jpg"); }
 
 /* Fin inicio */
 /* Inicio Fauna*/
@@ -90,14 +98,17 @@
     background-image: url("../recursos/pinguino.jpg"); }
     .cc div:before {
       content: "";
-      display: block;
+      display: inline-block;
       width: 100vw;
-      height: 70%;
-      background-image: linear-gradient(to bottom, gray, rgba(128, 128, 128, 0)); }
+      height: 100%;
+      background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.822), rgba(128, 128, 128, 0.257)); }
   .cc h1 {
-    font-size: 2.4rem;
-    z-index: 3; }
+    position: relative;
+    bottom: 350px;
+    font-size: 2.4rem; }
   .cc p {
+    position: relative;
+    bottom: 350px;
     margin: 0 25%;
     text-align: center;
     font-size: 1.3rem;
@@ -252,34 +263,19 @@ title {
 
 /*fin de la parte secundaria de la pagina*/
 /*parte secundaria contacto*/
+.contac-tam {
+  width: 600px;
+  position: relative;
+  bottom: 100px;
+  left: 70px; }
+
 .letra {
   font-size: 1.5rem; }
 
-.contenedor_contacto {
-  margin-left: 3%;
-  margin-top: -13%;
-  width: 500px;
-  height: 200px;
-  background-color: #b4b0b0;
-  border-radius: 4%;
-  display: flex;
-  align-items: center; }
-
-.contenedor_texto {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  line-height: 30px; }
-
-.formulario {
-  width: 600px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  position: relative;
-  left: 700px;
-  bottom: 180px; }
+.boton-contacto {
+  background-color: #2b99cc;
+  color: white;
+  margin-top: 5px; }
 
 .botom_f {
   width: 60px; }
@@ -289,12 +285,6 @@ title {
   display: flex;
   justify-content: flex-end; }
   .boton_ayuda_a {
-    width: 80px;
-    height: 35px;
-    text-align: center;
-    font-size: 0.85rem;
-    border-radius: 10px;
-    border: 0px;
     background-image: linear-gradient(to right top, #7bfcff, #56ebff, #2fdaff, #0ac7ff, #1ab4fb); }
     .boton_ayuda_a:hover {
       transform: scale(1.1, 1.1);
