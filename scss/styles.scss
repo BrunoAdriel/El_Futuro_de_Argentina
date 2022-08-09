@@ -68,12 +68,30 @@ title{
 
 /*parte secundaria contacto*/
 
-.contac-tam{
-    width: 600px;
-    position: relative;
-    bottom: 100px; left: 70px;
+.contacto-medio{
+    margin:0 0 2% 2%;
+    display: grid;
+    grid-template-columns: 1.5fr 0.1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "cuestionario-cc none informacion-cc";
 }
 
+// 
+.cuestionario-cc{
+    grid-area: cuestionario-cc ;
+}
+
+.informacion-cc{
+    grid-area: informacion-cc;
+    padding: 2%;
+    padding:5px;
+    height: 330px;
+    width: 400px;
+    background-color: gray;
+    border-radius: 20px;
+    border: 0px;
+    text-align: center;
+}
 
 .letra{
     font-size: 1.5rem;
@@ -90,6 +108,7 @@ title{
 .botom_f{
     width: 60px;
 }
+
 /*fin parte secundara ayuda*/
 // Botones de parte de ayuda
 
@@ -107,3 +126,5 @@ title{
     }
     }
 }
+
+// fin parte ayuda
