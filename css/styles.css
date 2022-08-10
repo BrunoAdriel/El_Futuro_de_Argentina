@@ -85,7 +85,7 @@
 .entrada_ayuda h1 {
   align-items: flex-start;
   padding-top: 55px;
-  color: black; }
+  color: white; }
 
 /*Fin Inicio Ayuda*/
 /*inicio contacto*/
@@ -165,21 +165,6 @@ footer {
     font-family: 'Roboto Mono', monospace;
     font-size: 1.2rem; }
   /*fin incio header*/
-  /* inicio de footer */
-  footer {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "indice" "redes" "redes" "derechos";
-    flex-direction: row; }
-    footer_redes {
-      align-items: flex-start;
-      padding: 13px 0; }
-    footer_derechos {
-      grid-area: derechos;
-      flex-direction: row; }
-    footer span {
-      display: block; }
-  /*fin footer*/
   /* inicio de las otras paginas*/
   /*fauna*/
   .entrada_fauna h1 {
@@ -194,7 +179,7 @@ footer {
   /* ayuda */
   .entrada_ayuda {
     width: 100vw;
-    height: 40vh; }
+    height: 45vh; }
     .entrada_ayuda h1 {
       font-size: 2rem;
       margin: 0; }
@@ -202,20 +187,46 @@ footer {
       height: 250px;
       justify-content: center; }
   /* contacto */
+  .cc div::before {
+    background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.822), rgba(128, 128, 128, 0.557)); }
   .cc h1 {
     font-size: 2rem;
     margin: 0;
     text-align: center; }
-  .contenedor_contacto {
-    width: 300px;
-    height: 300px; }
-  .formulario {
-    width: 300px;
-    margin: 20px 0 0 10px;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    align-items: flex-start; } }
+  .cc p {
+    margin: 0; }
+  .contacto-medio {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "cuestionario-cc" "informacion-cc"; }
+  .cuestionario-cc {
+    grid-area: cuestionario-cc; }
+  .informacion-cc {
+    grid-area: informacion-cc;
+    padding: 2%;
+    padding: 5px;
+    height: 400px;
+    width: 200px;
+    background-color: gray;
+    border-radius: 20px;
+    border: 0px;
+    text-align: center; }
+  /* inicio de footer */
+  footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "indice" "redes" "redes" "derechos";
+    flex-direction: row; }
+    footer_redes {
+      align-items: flex-start;
+      padding: 13px 0; }
+    footer_derechos {
+      grid-area: derechos;
+      flex-direction: row; }
+    footer span {
+      display: block; }
+  /*fin footer*/ }
 
 /*fin media celular*/
 * {
@@ -285,7 +296,8 @@ title {
   text-align: center; }
 
 .letra {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  font-weight: 700; }
 
 .boton-contacto {
   background-color: #2b99cc;
