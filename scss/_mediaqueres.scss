@@ -79,8 +79,8 @@
     margin:0;
 }
 
-.contacto-medio{
-    display: grid;
+.contacto-medio {
+    flex-direction: row;
     grid-template-columns: 1fr;
     grid-template-rows:1fr;
     grid-template-areas:    "cuestionario-cc"

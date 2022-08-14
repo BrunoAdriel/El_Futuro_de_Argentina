@@ -1,0 +1,42 @@
+/*parte secundaria contacto*/
+
+.contacto-medio{
+    margin:0 0 2% 2%;
+    display: grid;
+    grid-template-columns: 1.5fr 0.1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "cuestionario-cc none informacion-cc";
+}
+
+.cuestionario-cc{
+    grid-area: cuestionario-cc ;
+}
+
+.informacion-cc{
+    grid-area: informacion-cc;
+    padding: 2%;
+    padding:5px;
+    height: 330px;
+    width: 400px;
+    background-color: gray;
+    border-radius: 20px;
+    border: 0px;
+    text-align: center;
+}
+
+.letra{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.boton-contacto{
+    @extend .boton_general;
+    background-color: rgb(43, 153, 204);
+    color: white;
+    margin-top: 5px;
+}
+
+
+.botom_f{
+    width: 60px;
+}
