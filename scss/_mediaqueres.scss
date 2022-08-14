@@ -136,3 +136,40 @@
 /*fin footer*/
 
 }/*fin media celular*/
+
+// inicio media tablet
+
+@media (min-width: 575px) and (max-width: 820px){
+    
+    // centrado inicio contacto
+    
+    .cc {
+            & h1{
+                position: relative;
+                bottom: 700px;}
+
+            & p{position: relative;
+                bottom: 700px;
+            }
+        }
+
+    //centrado de las noticias 
+
+    .centradomedio{
+        margin: 7px;
+    }
+
+    //centrado de main contacto 
+
+    .contacto-medio{
+        margin-right: 16px;
+        position: relative;
+        bottom: 100px;
+    }
+
+    // footer
+
+    footer span{
+        padding: 5px;
+    }
+}
