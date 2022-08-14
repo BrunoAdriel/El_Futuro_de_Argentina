@@ -6,6 +6,8 @@
 @import"footer";
 @import"mediaqueres";
 
+/* clases especificas*/
+
 *{
     margin: 0px;
     padding: 0px;
@@ -27,7 +29,6 @@ h2{
     font-family: 'Nunito', sans-serif;
 }
 
-
 article{
     font-family: 'Roboto Mono', monospace;
     font-size: 1.5rem;
@@ -38,8 +39,6 @@ title{
     font-size: 1.5rem;
 }
 
-/* clases especificas*/
-
 .centrado{
     text-align: center;
 }
@@ -49,25 +48,17 @@ title{
     justify-content: center;
 }
 
-.iconos_footer{
-    width:35px;
-    height: 35px;
-    margin:5px;
-}
-
 /* fin clases escificas*/
 
-/*parte secundaria de la pagia, noticias*/
+/*parte secundaria de la pagia noticias*/
 
 .nna{
     text-decoration: underline;
     color: black;
 }
 
-/*fin de la parte secundaria de la pagina*/
+// fin parte secundia de la pagina noticias
 
-
-/*fin parte secundara ayuda*/
 // Botones de parte de ayuda
 
 .boton_ayuda{
